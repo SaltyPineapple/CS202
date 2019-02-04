@@ -1,0 +1,51 @@
+nav {
+    background: #444444;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1 1 0;
+    text-align: center;
+    position: relative;
+}
+
+nav ul li a {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #2e2f30;
+    background-color: #acadaf;
+    text-decoration: none;
+}
+
+.container-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    grid-gap: 15px;
+    margin: .2em .2em .2em .2em;
+}
+
+.item {
+    width: 330px;
+    display: inline-block;
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+    transition: width .3s;
+    
+}
+
+.item:hover {
+    width: 500px;
+}
